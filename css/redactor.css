@@ -1,0 +1,70 @@
+/* position the bars and balls correctly (rotate them and translate them outward)*/
+.bar1 {
+  -moz-transform:rotate(0deg) translate(0, -40px);
+  -webkit-transform:rotate(0deg) translate(0, -40px);opacity:0.12;
+}
+.bar2 {
+  -moz-transform:rotate(45deg) translate(0, -40px);
+  -webkit-transform:rotate(45deg) translate(0, -40px);opacity:0.25;
+}
+.bar3 {
+  -moz-transform:rotate(90deg) translate(0, -40px);
+  -webkit-transform:rotate(90deg) translate(0, -40px);opacity:0.37;
+}
+.bar4 {
+  -moz-transform:rotate(135deg) translate(0, -40px);
+  -webkit-transform:rotate(135deg) translate(0, -40px);opacity:0.50;
+}
+.bar5 {
+  -moz-transform:rotate(180deg) translate(0, -40px);
+  -webkit-transform:rotate(180deg) translate(0, -40px);opacity:0.62;
+}
+.bar6 {
+  -moz-transform:rotate(225deg) translate(0, -40px);
+  -webkit-transform:rotate(225deg) translate(0, -40px);opacity:0.75;
+}
+.bar7 {
+  -moz-transform:rotate(270deg) translate(0, -40px);
+  -webkit-transform:rotate(270deg) translate(0, -40px);opacity:0.87;
+}
+.bar8 {
+  -moz-transform:rotate(315deg) translate(0, -40px);
+  -webkit-transform:rotate(315deg) translate(0, -40px);opacity:1;
+}
+
+/* set up spinner */
+#loading {
+  position:relative;
+  width:100px;
+  height:100px;
+  margin:25px;
+  -moz-border-radius:100px;
+  float:left;
+  -moz-transform:scale(0.5);
+  -webkit-transform:scale(0.5);
+
+  /* not used right now: */
+  -webkit-animation-name: rotateThis;
+  -webkit-animation-duration:2s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+}
+
+#loading div {
+  width:10px;
+  height:30px;
+  background:#000;
+  position:absolute;
+  top:35px;
+  left:45px;
+}
+
+
+/* full rounded corners and partially hidden for the third */
+#loading div {
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+}
+
+#loading .bar3 {opacity:0;}
