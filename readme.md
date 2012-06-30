@@ -1,5 +1,11 @@
-# RedactorJS.com WordPress Plugin #
+RedactorJS.com WordPress Plugin
+===============================
 
-~Current Version:0.1.0~
+~Current Version:0.1.1~
 
-Replaces the default WordPress editor (TinyMCE) with the much more elgant Redactor (redactorjs.com). Redactor is free to use on non-profit sites, but you do have to purchase a license if you use it for commercial projects.
+Installation
+------------
+
+1. Copy plugin to wp-content/plugins folder
+2. Activate plugin in wp-admin
+3. Enjoy!

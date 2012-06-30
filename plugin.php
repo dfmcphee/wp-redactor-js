@@ -4,7 +4,7 @@
 Plugin Name: RedactorJS.com
 Plugin URI: http://dominicmcphee.com/redactor-wp-editor
 Description: Replaces the default WordPress editor (TinyMCE) with the much more elgant Redactor (redactorjs.com). Redactor is free to use on non-profit sites, but you do have to purchase a license if you use it for commercial projects.
-Version: 0.1.0
+Version: 0.1.1
 Author: Dominic McPhee
 Author URI: http://dominicmcphee.comww
 */
